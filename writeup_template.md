@@ -1,6 +1,6 @@
 # **Finding Lane Lines on the Road** 
 
-## Writeup Template
+## Writeup
 
 ---
 
@@ -29,19 +29,3 @@ In order to draw a single line on the left and right lanes, I've used averaging 
 One potential shortcoming would be what would happen when the lanes disappear or lane getting erased(on the road), the vehicle might not be able to find out the path in which it has to move forward(atleast with this kindof setup). Also, The averaging function has to be tweaked/improved a little more to identify lanes in videos which are not taken in a single orientation, which i believe is the reason for the pipeline not being able to detect lanes in the challenge.mp4 video properly. 
 
 Another shortcoming could be that the lanes might not be well detected when the light conditions vary because of the camera/climate. This has to be taken into consideration to improve the performance of this pipeline.
-
-
-## Video Streaming!! 
-
-`SolidWhiteRight.mp4`
-
-<video controls src="../test_videos/SolidWhiteRight.mp4" />
-
-
-After Applying the pipeling over the video, 
-
-<video controls src="../test_videos_output/SolidWhiteRight.mp4" />
-
-
-
-
