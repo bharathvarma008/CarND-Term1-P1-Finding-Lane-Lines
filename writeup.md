@@ -12,7 +12,7 @@
 
 ### Reflection
 
-The pipeline that this implementation(P1.ipynb) follows is broadly built in 5 steps. The steps involve fine tuning the parameters for Gaussian Blur, Canny Edge Detection, Region Identification and Hough Transformations over the images. The parameters are chosen in such a way, that these can be approximately applicable to all the test images given by finding/drawing optimal Lane lines.
+The pipeline that this implementation(Pipeline_source.ipynb) follows is broadly built in 5 steps. The steps involve fine tuning the parameters for Gaussian Blur, Canny Edge Detection, Region Identification and Hough Transformations over the images. The parameters are chosen in such a way, that these can be approximately applicable to all the test images given by finding/drawing optimal Lane lines.
 
 Once these preliminaries were performed, the resulting image was masked to a bounding isosceles trapezoid that contains the lanes. This ended up being proportional to the image size, as the position of the camera in the car relative to the lanes is reasonably invariant. Doing it this way availed using the same routine for the two test videos.
 
